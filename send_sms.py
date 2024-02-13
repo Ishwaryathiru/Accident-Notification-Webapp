@@ -7,8 +7,8 @@ app = Flask(__name__)
 CORS(app)
 
 # Your Twilio credentials
-SID = 'ACaf51e5854a5c526af13c5d3104888fc2'
-token = '0c469fe8ae188cbe02577c9a14cbd899'
+SID = 'ACaf51e5854a5c526'
+token = '0c469fe8ae18'
 ct = Client(SID, token)
 
 @app.route('/send_sms', methods=['POST'])
